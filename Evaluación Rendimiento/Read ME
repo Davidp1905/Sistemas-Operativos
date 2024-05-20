@@ -14,4 +14,6 @@ De igual manera se incluye el informa Evaluacion_Rendimiento.pdf que contiene el
 
 El archivo prosesar_dat_a_CSV.cpp es un archivo en C++ que e utilizó para calcular los tiempos promedios de los resultados obtenidos.
 
+La carpeta de SalidasCSV contiene los resultados en arcvhivos de tipo .csv
+
 
