@@ -1,6 +1,10 @@
 Este es el taller de evaluación Rendimiento.
 
 Se encuentra el código usado para multiplicar matrices con el algoritmo clásico y el de la transpuesta. 
+Dentro de cada carpeta con su respectivo nombre hay 3 archivos: biblio.c, biblio.h y principal.c
 
-También se incluye el archivo Perl con el que se automatizó la ejecución de las pruebas 
+También se incluye el archivo Perl con el que se automatizó la ejecución de las pruebas.
+Para correr el Perl, es necesario compilar los archivos que se tienen en las carpetas de Clasico y Transpuesta por separado. 
+Ambos pueden ejecutarse con el siguiente comando: gcc -o nombreEjecutable principal.c biblio.c
+Sin embargo, deben llamarse de manera distinta y el archivo Perl debe ajustarse para que corra con los nombres que se le pongan a los ejecutables.
 
