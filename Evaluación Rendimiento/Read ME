@@ -13,7 +13,8 @@ Además, se incluyen las carpetas con los resultados generado por el Perl.
 De igual manera se incluye el informa Evaluacion_Rendimiento.pdf que contiene el análisis realizado a los resultados obtenidos.
 
 El archivo prosesar_dat_a_CSV.cpp es un archivo en C++ que e utilizó para calcular los tiempos promedios de los resultados obtenidos.
+Este programa comvierte los resultados en archivos .csv y genera los promedios.
 
 La carpeta de SalidasCSV contiene los resultados en arcvhivos de tipo .csv
 
-
+En la carpeta promedios se encuentran los promedios de los tiempos de los resultados
