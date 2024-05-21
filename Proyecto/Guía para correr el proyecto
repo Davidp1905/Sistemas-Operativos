@@ -1,0 +1,28 @@
+Guía para correr el proyecto: Monitoreo de Sensores
+
+Autores: Andrés Pérez, Juan Diego Reyes, Juan Felipe Galvis
+Fecha: 21 de Mayo de 2024
+Materia: Sistemas Operativos
+Pontificia Universidad Javeriana
+Objetivo: Crear un sistema de monitoreo de datos de sensores de PH y
+          temperatura que utiliza un buffer circular, semáforos e hilos
+          para recolectar y registrar datos en archivos 
+
+Contenido del Proyecto:
+    - Proceso Monitor
+    - Proceso Sensor
+    - 
+
+Primero es necesario poner a correr el archivo Makefile
+Para esto, se escribe por consola 'make'
+
+Luego, se corre el proceso monitor
+Ejemplo de lo que se ingresa por consola:
+./monitor -b 10 -t file-temp.txt -h file-ph.txt -p pipe1
+
+Luego, se pueden poner a correr los sensores
+Ejemplo de lo que se ingresa por consola:
+./sensor -s 1 -t 3 -f temperatura.txt -p pipe1
+./sensor -s 2 -t 3 -f ph.txt -p pipe1
+
+Se pueden poner a correr varios sensores a la vez al tener corriendo el proceso monitor.
