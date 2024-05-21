@@ -1,3 +1,16 @@
+ /*********************************************************************
+Proyecto: Monitoreo de Sensores
+Autores: Andrés Pérez, Juan Diego Reyes, Juan Felipe Galvis
+Fecha: 21 de Mayo de 2024
+Materia: Sistemas Operativos
+Pontificia Universidad Javeriana
+Objetivo: Crear un sistema de monitoreo de datos de sensores de PH y
+          temperatura que utiliza un buffer circular, semáforos e hilos
+          para recolectar y registrar datos en archivos 
+**************************************************************************/
+
+// Proceso Monitor //
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
