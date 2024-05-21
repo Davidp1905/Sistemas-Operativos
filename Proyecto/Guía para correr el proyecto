@@ -47,5 +47,6 @@ Ejemplo de lo que se ingresa por consola:
 Es necesario poner primero la bandera y luego su valor respectivo
 Se puede cambiar el órden de las banderas de entrada
 
-Nota: Se pueden poner a correr varios sensores a la vez. 
-
+Notas: - Se pueden poner a correr varios sensores a la vez. 
+       - Los datos que tengan valores inválidos no son escritos en los archivos de resultados y se avisa por consola
+       - El proceso monitor avisa por consola si un valor está fuera de rango
